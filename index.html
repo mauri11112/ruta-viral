@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruta Viral - Estrategia, Diseño, Resultado</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased text-gray-800">
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto flex items-center justify-between py-4 px-6">
+      <h1 class="text-2xl font-bold text-teal-600">Ruta Viral</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#servicios" class="hover:text-teal-600">Servicios</a></li>
+          <li><a href="#portafolio" class="hover:text-teal-600">Portafolio</a></li>
+          <li><a href="#nosotros" class="hover:text-teal-600">Nosotros</a></li>
+          <li><a href="#contacto" class="hover:text-teal-600">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-teal-600 text-white py-20">
+    <div class="container mx-auto text-center px-6">
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-4">No es marketing: es estrategia, diseño, resultado</h2>
+      <p class="text-lg md:text-xl mb-8">Ayudamos a marcas a crecer digitalmente con soluciones 360°</p>
+      <a href="#contacto" class="bg-white text-teal-600 font-bold py-3 px-6 rounded-lg shadow hover:bg-gray-100 transition">¡Hablemos!</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Nuestros Servicios</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 border rounded-lg hover:shadow-lg transition">
+          <h4 class="text-2xl font-semibold mb-2">Branding & Diseño</h4>
+          <p>Logotipos, paletas de color, manual de marca y diseños coherentes para destacar tu identidad.</p>
+        </div>
+        <div class="p-6 border rounded-lg hover:shadow-lg transition">
+          <h4 class="text-2xl font-semibold mb-2">Contenido Visual</h4>
+          <p>Fotografía, video, Reels y posts optimizados para captar la atención de tu audiencia.</p>
+        </div>
+        <div class="p-6 border rounded-lg hover:shadow-lg transition">
+          <h4 class="text-2xl font-semibold mb-2">Gestión de Redes</h4>
+          <p>Estrategias de publicación, interacción con seguidores y crecimiento orgánico en Instagram, Facebook y TikTok.</p>
+        </div>
+        <div class="p-6 border rounded-lg hover:shadow-lg transition">
+          <h4 class="text-2xl font-semibold mb-2">Publicidad Digital</h4>
+          <p>Campañas segmentadas en Facebook Ads y Google Ads para maximizar tu retorno de inversión.</p>
+        </div>
+        <div class="p-6 border rounded-lg hover:shadow-lg transition">
+          <h4 class="text-2xl font-semibold mb-2">SEO & Web</h4>
+          <p>Desarrollo web en Webflow y optimización SEO para mejorar tu visibilidad en buscadores.</p>
+        </div>
+        <div class="p-6 border rounded-lg hover:shadow-lg transition">
+          <h4 class="text-2xl font-semibold mb-2">Analítica & Resultados</h4>
+          <p>Reportes mensuales con métricas claras y recomendaciones para seguir creciendo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portafolio -->
+  <section id="portafolio" class="bg-gray-100 py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Portafolio Destacado</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Tarjetas de ejemplo -->
+        <div class="rounded-lg overflow-hidden shadow-lg">
+          <img src="https://via.placeholder.com/400x250" alt="Proyecto 1" class="w-full">
+          <div class="p-4">
+            <h4 class="font-semibold text-xl mb-2">Cliente Anís Velas & Plantas</h4>
+            <p>Campaña de Instagram, branding y sesión de fotos de productos.</p>
+          </div>
+        </div>
+        <!-- Repetir para más proyectos -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Nosotros -->
+  <section id="nosotros" class="py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">Quiénes Somos</h3>
+      <p class="max-w-2xl mx-auto mb-4">Somos Ruta Viral, una agencia 360° fundada por Mauro con el sueño de ayudar a marcas a crecer en digital. Contamos con un equipo creativo y experto en cada área para brindar soluciones integrales.</p>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="bg-teal-600 text-white py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">¿Listo para crecer?</h3>
+      <p class="mb-8">Contáctanos y conversemos sobre tu proyecto sin compromiso.</p>
+      <form class="max-w-xl mx-auto grid grid-cols-1 gap-4">
+        <input type="text" placeholder="Tu Nombre" class="p-3 rounded text-gray-800" required>
+        <input type="email" placeholder="Tu Email" class="p-3 rounded text-gray-800" required>
+        <textarea rows="4" placeholder="Mensaje" class="p-3 rounded text-gray-800" required></textarea>
+        <button type="submit" class="bg-white text-teal-600 font-bold py-3 px-6 rounded hover:bg-gray-100 transition">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-400 py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2025 Ruta Viral. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
